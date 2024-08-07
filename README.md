@@ -8,6 +8,8 @@ This repo contains python script to decompose and reconstruct InSAR Time-series 
 ### Usage: 
 The main executable for this library is ```mintpy_ssa.py```.
 
+```mintpy_ssa.py <timeseries file> -w <Window Length> -o <Output file name>```.
+
 
 An example run-string would be: 
 
