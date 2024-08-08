@@ -48,7 +48,6 @@ def main(iargs=None):
     date_list = timeseries(inps.timeseries_file).get_date_list()
     data, atr = readfile.read(inps.timeseries_file)
     length, width = int(atr['LENGTH']), int(atr['WIDTH'])
-    # length, width = int(10), int(10)
     N_dates=len(date_list)
     # with h5py.File(inps.timeseries_file,'r') as f:
     #     data = f['timeseries'][:]
@@ -60,7 +59,7 @@ def main(iargs=None):
         for j in range(width):
             if is_number(sum(data[:,i,j])):
                 a=SSA(data[:,i,j], inps.window)
-                data_matrix[:,i,j]=a.reconstruct([0,1])
+                data_matrix[:,i,j]=a.reconstruct([0,1])  # Grouping recostructed components, by defaults it takes F1 and F2 as trend
     m, s = divmod(time.time()-start_time, 60)
     block= [0,N_dates,0,length,0,width]
     writefile.layout_hdf5(inps.outfile, metadata=atr, ref_file=inps.timeseries_file)
