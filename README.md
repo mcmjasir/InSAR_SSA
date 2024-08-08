@@ -17,7 +17,7 @@ This repository contains Python scripts for decomposing and reconstructing InSAR
 
 ## Requirements and Installation:
 
-* Python3, numpy, scipy, matplotlib
+* Python3, numpy, pandas, scipy, matplotlib
 * [Mintpy](https://github.com/insarlab/MintPy)
 
 ## Usage: 
