@@ -31,11 +31,7 @@ An example run-string would be:
 ```mintpy_ssa.py timeseries.h5 -w 7 -o timeseries_ssa.h5```
 
 ## Citing this work
-M.C.M. Jasir, K.M. Sreejith, R. Agrawal and S.K. Begum. “Application of
-Singular Spectrum Analysis to InSAR time-series for constraining the
-postseismic deformation due to moderate magnitude earthquakes: The
-case of 2019 Mw 6 Mirpur earthquake, NW Himalaya."[ Geophysical Journal
-International (2024)] (Accepted after minor revision)
+
 **M.C.M. Jasir, K.M. Sreejith, R. Agrawal and S.K. Begum. (2024). Application of Singular Spectrum Analysis to InSAR time-series for constraining the
 postseismic deformation due to moderate magnitude earthquakes: The case of 2019 Mw 6 Mirpur earthquake, NW Himalaya.. *Geophysical Journal International* [Under Review] **
 
