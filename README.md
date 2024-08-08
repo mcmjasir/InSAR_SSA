@@ -23,7 +23,7 @@ This repository contains Python scripts for decomposing and reconstructing InSAR
 ## Usage: 
 The main executable for this library is ```mintpy_ssa.py```.
 
-```mintpy_ssa.py <timeseries file> -w <Window Length> -o <Output file name>``.
+```mintpy_ssa.py <timeseries file> -w <Window Length> -o <Output file name>```.
 ### Parameters
 * `<timeseries file>`: The input file containing the time series data.
 * `-w <Window Length>`: The Window Lenght to be used for SSA.
