@@ -29,3 +29,15 @@ The main executable for this library is ```mintpy_ssa.py```.
 An example run-string would be: 
 
 ```mintpy_ssa.py timeseries.h5 -w 7 -o timeseries_ssa.h5```
+
+## Citing this work
+M.C.M. Jasir, K.M. Sreejith, R. Agrawal and S.K. Begum. “Application of
+Singular Spectrum Analysis to InSAR time-series for constraining the
+postseismic deformation due to moderate magnitude earthquakes: The
+case of 2019 Mw 6 Mirpur earthquake, NW Himalaya."[ Geophysical Journal
+International (2024)] (Accepted after minor revision)
+**M.C.M. Jasir, K.M. Sreejith, R. Agrawal and S.K. Begum. (2024). Application of Singular Spectrum Analysis to InSAR time-series for constraining the
+postseismic deformation due to moderate magnitude earthquakes: The case of 2019 Mw 6 Mirpur earthquake, NW Himalaya.. *Geophysical Journal International* [Under Review] **
+
+**Sreejith, K. M., Jasir, M. C. M., Sunil, P. S., Rose, M. S., Saji, A. P., Agrawal, R., et al. (2024). Geodetic evidence for cascading landslide motion triggered by extreme rain events at Joshimath, NW Himalaya. *Geophysical Research Letters, 51*, e2023GL106427. [https://doi.org/10.1029/2023GL106427](https://doi.org/10.1029/2023GL106427)**
+
