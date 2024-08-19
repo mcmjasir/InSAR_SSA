@@ -35,7 +35,7 @@ An example run-string would be:
 
 ## Citing this work
 
-1. Jasir, M. C. M., Sreejith, K. M., Agrawal, R., and Begum, S. K. (2024). Application of Singular Spectrum Analysis to InSAR time-series for constraining the postseismic deformation due to moderate magnitude earthquakes: The case of 2019 Mw 6 Mirpur earthquake, NW Himalaya. *Geophysical Journal International*.[Under Review]
+1. Jasir, M. C. M., Sreejith, K. M., Agrawal, R., and Begum, S. K. (2024). Application of Singular Spectrum Analysis to InSAR time-series for constraining the postseismic deformation due to moderate magnitude earthquakes: The case of 2019 Mw 6 Mirpur earthquake, NW Himalaya. *Geophysical Journal International*.[https://doi.org/10.1093/gji/ggae287](https://doi.org/10.1093/gji/ggae287)]
 
 2. Sreejith, K. M., Jasir, M. C. M., Sunil, P. S., Rose, M. S., Saji, A. P., Agrawal, R., et al. (2024). Geodetic evidence for cascading landslide motion triggered by extreme rain events at Joshimath, NW Himalaya. *Geophysical Research Letters, 51*, e2023GL106427. [https://doi.org/10.1029/2023GL106427](https://doi.org/10.1029/2023GL106427)
 
