@@ -28,10 +28,6 @@ def DecYr(x):
     return x.dt.to_period('D').dt.to_timestamp().dt.year + x.dt.to_period('D').dt.to_timestamp().dt.dayofyear / 365.25
 
 
-def rms(a, b):
-    return math.sqrt(mean_squared_error(a, b))
-
-
 def sigma_sum(Sigma):
     sigma_sumsq = (Sigma**2).sum()
     return Sigma**2 / sigma_sumsq * 100
@@ -49,7 +45,7 @@ df = pd.DataFrame({'date': dates, 'dis': dis*1000})
 
 # Decompositon
 
-L = 8
+# L = 8
 F_ssa = SSA(dis*1000, L)
 contri = sigma_sum(F_ssa.Sigma)
 df_ssa = pd.concat([F_ssa.components_to_df()], axis=1)
