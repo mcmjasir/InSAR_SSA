@@ -7,7 +7,11 @@ This repository contains Python scripts for decomposing and reconstructing InSAR
 
 - **`ssa.py`**: A Python class for SSA, modified from [this Kaggle notebook](https://www.kaggle.com/code/jdarcy/introducing-ssa-for-time-series-decomposition).
 
+- **`ts_1D.py`**: Reads the InSAR time-series from [Mintpy](https://github.com/insarlab/MintPy) and provides the reconstructed time-series for a partcular location.
+  
 - **`mintpy_ssa.py`**: Reads the InSAR time-series from [Mintpy](https://github.com/insarlab/MintPy) and provides the reconstructed time-series in HDF5 (`.h5`) format.
+
+
 
 ## Overview
 
